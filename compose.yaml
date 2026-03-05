@@ -1,0 +1,6 @@
+﻿services:
+  leaveflow:
+    image: leaveflow
+    build:
+      context: .
+      dockerfile: LeaveFlow/Dockerfile
